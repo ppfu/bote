@@ -1,0 +1,479 @@
+html {
+  font-family: helvetica, "Microsoft Yahei", arial, sans-serif;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+input,
+button,
+textarea,
+p,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  font-family: Microsoft YaHei, sans-serif, Arial;
+}
+
+/*  通配符“*”可以代表所有标签  */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  *font-size: 100%;
+}
+
+.clear:after {
+  display: block;
+  content: "clear";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+input {
+  border: 0;
+  outline: 0;
+}
+
+.clear {
+  zoom: 1;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.ta_c{
+  text-align: center;
+}
+.ta_l{
+  text-align: left;
+}
+.ta_r{
+  text-align: right!important;
+}
+.f_c{
+  color: #fcb90b!important;
+}
+.f_c_red{
+  color: #D40469!important;
+}
+.f_c_green{
+  color: #01B782!important;
+}
+.f_c_gray{
+  color: #888!important;
+}
+.f_l{
+  float: left;
+}
+.f_r{
+  float: right
+}
+.d-flex{
+  display: flex
+}
+.flex1{
+  flex: 1
+}
+.btn{
+  border: 0;
+  padding: 0.1rem 0 0.1rem;
+}
+.btn:focus{
+  outline: 0;
+}
+input{
+  outline: 0;
+}
+.btn:active{
+  -webkit-box-shadow: inset 0 0 40px 1px rgba(0, 0, 0, .15);
+  box-shadow: inset 0 0 40px 1px rgba(0, 0, 0, .15);
+}
+
+.wrap .form .d_input>.active{
+  border-color: #f0b90b!important;
+}
+/* vux样式修改 */
+/* toast */
+.vux-x-input .weui-icon{
+  transform: translateY(-2px);
+}
+.weui-icon-clear{
+  font-size: 16px!important;
+}
+.weui-toast {
+  min-width: 40% !important;
+  padding: 0 2% 0;
+}
+.weui-toast.weui-toast_forbidden .weui-toast__content{
+  font-size: 0.36rem;
+}
+
+.vux-tab{
+  background: #1a212a!important;
+  width: 100%;
+}
+.fix_tab .vux-tab{
+  background: #161d26!important;
+}
+.wrap .vux-tab .vux-tab-item{
+  background: none!important;
+  color: rgba(255, 255, 255, .8);
+}
+.vux-table td:before, .vux-table th:before{
+  border-bottom: 1px solid transparent!important;
+}
+.vux-table:after{
+  border-top: 1px solid transparent!important;
+}
+/* 关闭icon */
+.vux-close:before, .vux-close:after{
+  height: 2px!important;
+}
+.tab .vux-tab-bar-inner{
+  border-radius: 20px;
+}
+/* .vux-close{
+  color: rgba(255, 255, 255, .6)!important;
+} */
+.vux-close:before, .vux-close:after{
+  width: 20px!important;
+}
+/* 弹框 */
+.weui-toast__content{
+  font-size: 0.4rem!important;
+}
+.vux-x-dialog-absolute .weui-dialog {
+  position: fixed!important;
+}
+.weui-dialog__btn_primary{
+  color: #f0b90b!important;
+}
+.com_dialog .weui-dialog{
+  width: 100%;
+  max-width: 100%;
+  top: auto;
+  border-radius: 3px 3px 0 0;
+}
+.vux-table td, .vux-table th{
+  white-space: nowrap;
+  padding: 0 0.4rem 0;
+}
+/* mint-ui样式修改 */
+.mt-range-thumb{
+  background-color: #f0b90b!important;
+}
+.mt-range-progress{
+  background-color: #f0b90b!important;
+}
+/* vant */
+.van-pull-refresh{
+  overflow: visible!important;
+}
+.main .van-pagination__item{
+  background: #242424;
+  color: white;
+}
+.main .van-pagination__item--active{
+  color: #f0b90b;
+  font-weight: 700;
+}
+.main .van-pagination__item--disabled,.main .van-pagination__item--disabled:active{
+  background: #242424;
+  opacity: 1;
+  color: rgba(255,255,255,.5);
+}
+body{
+    background: #12161c;
+}
+::-webkit-input-placeholder { 
+  color: rgba(255,255,255,.6);  
+}
+::-moz-input-placeholder { 
+  color: rgba(255,255,255,.6);  
+}
+::-o-input-placeholder { 
+  color: rgba(255,255,255,.6);  
+}
+::-ms-input-placeholder { 
+  color: rgba(255,255,255,.6);  
+}
+.top{
+  position: fixed;
+  line-height: 1.1rem;
+  height: 1.1rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 0.44rem;
+  background: #12161c;
+  z-index: 1;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+}
+.top>.back_img{
+  position: absolute;
+  left: 3%;
+  top: 0.18rem;
+  width: .7rem;
+}
+.form .weui-cell {
+  padding: 0!important;
+}
+.form .weui-input{
+  height: .9rem;
+  line-height: .9rem;
+  padding-left: 0.15rem;
+  box-sizing: border-box;
+  font-size: 0.34rem!important;
+}
+.form .eye_div .f_r{
+  position: relative;
+}
+.form .eye_div .vux-x-input{
+  width: calc(100% - 1rem);
+  /* display: inline-block; */
+}
+.form .eye_div .iconfont{
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: .6rem;
+  margin-right: 0.2rem;
+  margin-top: 0.1rem;
+}
+.form_bot .weui-icon-success,.form_bot .vux-check-icon > .weui-icon-success:before{
+  color: #f0b90b;
+}
+.notice .vux-slider > .vux-swiper{
+  height: .8rem!important;
+  line-height: .8rem!important;
+}
+
+
+.suc_dialog .weui-dialog{
+  border-radius: 10px;
+}
+
+.tab_radius .vux-tab-container{
+  border-radius: 4px;
+}
+
+.verify-img-panel{
+  border: 0!important;
+  width: 100%!important;
+  background-size: 100% 100%!important;
+}
+.verify-bar-area{
+  margin-top: 20px;
+  width: 100%!important;
+}
+.verify-bar-area{
+  border-radius: 20px!important;
+  background: #dfe1e2!important;
+}
+.verify-bar-area .verify-left-bar{
+  background: transparent!important;
+  border-color: transparent!important;
+}
+.verify-bar-area .verify-move-block{
+  border-radius: 50%!important;
+}
+.verify-bar-area .verify-msg{
+  color: #89959e;
+}
+
+.vux-slider > .vux-swiper > .vux-swiper-item p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vux-slider > .vux-indicator > a > .vux-icon-dot.active, .vux-slider .vux-indicator-right > a > .vux-icon-dot.active{
+  background-color: white!important;
+  width: 14px!important;
+}
+.weui-dialog__title{
+  color: #333;
+}
+.van-switch__node {
+  -webkit-box-shadow: 0 3px 1px 0 rgba(0,0,0,.05), 0 2px 2px 0 rgba(0,0,0,.1), 0 3px 3px 0 rgba(0,0,0,.05);
+  box-shadow: 0 3px 1px 0 rgba(0,0,0,.05), 0 2px 2px 0 rgba(0,0,0,.1), 0 3px 3px 0 rgba(0,0,0,.05);
+}
+.vux-table{
+  line-height: normal!important;
+  max-width: 100%;
+}
+.vux-table td, .vux-table th{
+  padding: 0.3rem 0 0.3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.top .vux-tab .vux-tab-item,.bs_div .vux-tab .vux-tab-item{
+  font-size: 0.4rem!important;
+}
+.top .top_tab{
+  width: calc(100% - 1.1rem)!important;
+  float: right;
+}
+.top .top_tab .vux-tab-item{
+  line-height: 1.1rem!important;
+}
+.top .top_tab .vux-tab{
+  height: auto!important;
+}
+.weui-mask_transparent{
+  z-index: 99999999!important;
+}
+.weui-actionsheet{
+  z-index: 999999999!important;
+}
+.vux-loadmore.weui-loadmore_line:before, .vux-loadmore.weui-loadmore_line:after{
+  border-color: #999!important;
+}
+.info img{
+  max-width: 100%;
+}
+.info .van-cell{
+  background: #1a212a!important;
+  font-size: 0.4rem;
+  color: rgba(255, 255, 255, .8);
+  border-bottom: 1px solid #12161c;
+
+}
+.info .van-collapse-item__content{
+  background: #1a212a;
+  color: rgba(255, 255, 255, .6);
+  font-size: 0.34rem;
+}
+.info [class*=van-hairline]::after{
+  border: 0 solid #12161c;
+}
+.info .van-cell:not(:last-child)::after{
+  border-bottom: 0;
+}
+.info .van-collapse-item__content{
+  border-bottom: 1px solid #12161c;
+}
+.lang_dialog .weui-dialog{
+  border-radius: 10px;
+  background: #1A212A;
+  border: 1px solid #bbb;
+}
+.lang_dialog ul{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.05rem 10% 0.05rem;
+}
+.lang_dialog ul li{
+  color: white;
+  overflow: hidden;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+  border-bottom: 1px solid white;
+}
+.lang_dialog ul li:last-child{
+  border-bottom: 0;
+}
+.lang_dialog ul li>span:first-child{
+  float: left;
+}
+.lang_dialog ul li>span:last-child{
+  float: right;
+}
+.lang_dialog ul li .iconfont{
+  opacity: 0;
+  font-size: .6rem;
+}
+.lang_dialog ul li.active{
+  color: #fcb90b;
+}
+.lang_dialog ul li.active .iconfont{
+  color: #fcb90b;
+  opacity: 1;
+}
+
+
+body .weui-dialog{
+  background: #1A212A;
+  color: white;
+  border: 1px solid #bbb;
+}
+.wrap .de_dialog input{
+  background: #bbb;
+}
+body .weui-dialog__bd{
+  color: rgba(255, 255, 255, .8);
+}
+body .weui-dialog__title{
+  color: white;
+}
+body .weui-dialog__btn_default{
+  color: white;
+}
+body .wrap .de_dialog .dia_btns .btn:first-child{
+  color: white!important;
+}
+body .wrap .no_dialog .no_title .iconfont{
+  color: white!important;
+}
